@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asa_pilis",
+  "info": {
+    "name": "Asa'Pili"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Symbol": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

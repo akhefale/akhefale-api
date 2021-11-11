@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/asa-pilis",
+      "handler": "asa-pili.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/asa-pilis/count",
+      "handler": "asa-pili.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/asa-pilis/:id",
+      "handler": "asa-pili.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/asa-pilis",
+      "handler": "asa-pili.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/asa-pilis/:id",
+      "handler": "asa-pili.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/asa-pilis/:id",
+      "handler": "asa-pili.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
